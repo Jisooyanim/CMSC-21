@@ -182,7 +182,49 @@ between
 ## Exercise 9
 
 ---
-## Exercise 10
+## Exercise 10 `zodiac.c`
+Given a birth year, month, and day, display the zodiac sign and print out a fortune. The fortunes must be read from a file called `data.for`.
+
+The file `data.for` contains 60 lines. Every 12 lines represents a fortune for one of the 12 signs. The 12 zodiac signs are:
+
+- Aquarius
+- Pisces
+- Aries
+- Taurus
+- Gemini
+- Cancer
+- Leo
+- Virgo
+- Libra
+- Scorpio
+- Sagittarius
+- Capricorn
+This means the 1st, 13th, 25th, ..., line contains a fortune for Aquarius. Pisces' fortunes are in the 2nd, 14th, 26th, ..., line and so on.
+
+Do not use the same fortune once given out, use the next fortune instead. For example, if you've already given out an Aquarius fortune the first time, use the 13th line instead.
+
+Do not store these lines in a list. Instead, use file operations to jump around the file and get the line you want.
+
+Additionally, write the date inputs of the user to a file called data.in. One line per entry. This allows us to track which fortunes have already been given out.
+
+`data.in` should have the following format: YYYY-mm-dd. Example:
+
+2000-02-10
+1990-11-21
+1998-05-09
+
+### Sample Input
+```
+2000 02 10
+1990 11 21
+1998 10 30
+```
+### Sample Output
+```
+Aquarius: Be very careful around your own expectations today, as this is a vulnerable time when new wounds might be made if you don’t keep yourself safe.
+Scorpio: This is an excellent time for some detox plans and regenerative powers of Scorpios to be put to good use.
+Scorpio: Life seems to bring order into the world around you and you don’t really have to put that much effort into it.
+```
 
 ---
 ## Exercise 11
