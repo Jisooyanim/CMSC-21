@@ -266,7 +266,7 @@ Create a Rectangle class as well that stores 2 Points, the top-left and the bott
  - centerPoint - returns the center point of the rectangle
  - square - returns true if the rectangle is actually a square
 
-When displaying the rectangle, use a '#'. Also, add an extra space (' ') between every character on the same line so that it looks right. Otherwise, it'll look like this (when it should look closer to a square!):
+When displaying the rectangle, use a '#'. Also, add an extra space (' ') between every character on the same line so that it looks right.
 
 
 
