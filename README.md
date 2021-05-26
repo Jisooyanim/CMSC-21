@@ -249,7 +249,24 @@ Implement Exercise #7: Fractions, but this time using classes. Implement fractio
 3/2
 ```
 ---
-## Exercise 13
+## Exercise 13 `Rectangle.cpp`
+A rectangle can be formed given 2 points, the top left point and the bottom right point.
+
+Assuming the top left corner of the console is (0, 0), the bottom right corner is (MAX_X, MAX_Y).
+
+Thus given 2 x and y pairs, we can draw a rectangle on the console. We can also calculate for its area, perimeter, and center point.
+
+Create a Point class to store point information (x and y).
+
+Create a Rectangle class as well that stores 2 Points, the top-left and the bottom-right. As well as implement the following functions:
+
+ - display - draws the rectangle on the console
+ - area - returns area of the rectangle
+ - perimeter - returns perimeter of the rectangle
+ - centerPoint - returns the center point of the rectangle
+ - square - returns true if the rectangle is actually a square
+
+When displaying the rectangle, use a '#'. Also, add an extra space (' ') between every character on the same line so that it looks right. Otherwise, it'll look like this (when it should look closer to a square!):
 
 
 
