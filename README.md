@@ -208,8 +208,8 @@ Prompt the user with a menu:
 12. Sort students by last name
 13. Sort students by student number
 14. Exit
-
 ?
+
 For menu item:
 
 Ask the user to enter information necessary for a student. Then add the student to the list. Make sure no duplicate students are enrolled in the class. The student number uniquely identifies a student.
