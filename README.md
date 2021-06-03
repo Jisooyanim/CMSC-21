@@ -179,7 +179,68 @@ junglebook
 between
 ```
 ---
-## Exercise 9
+## Exercise 9 `StudentInformationSystem.c`
+Construct a structure that represents a student record. The structure should at least have the following information:
+
+- hyphenated student number
+- last name
+- first name
+- course
+- year level
+- age
+- sex
+- final grade (0 - 100, 60 passing)
+Construct the linked list that will contain the student records as well.
+
+Prompt the user with a menu:
+
+1. Enroll a student
+2. Drop a student
+3. Edit a student
+4. Display all students
+5. Filter students by last name
+6. Filter students by student number
+7. Filter students by year level
+8. Filter students by course
+9. Filter students by sex
+10. Filter students by passing
+11. Filter students by failing
+12. Sort students by last name
+13. Sort students by student number
+14. Exit
+
+?
+For menu item:
+
+Ask the user to enter information necessary for a student. Then add the student to the list. Make sure no duplicate students are enrolled in the class. The student number uniquely identifies a student.
+
+Ask the user to enter the student number of the student to drop. Remove the student from the list.
+
+Ask the user to enter the student number of the student to edit. Prompt the user with a sub-menu displaying all the fields that can be edited. Note that the user may edit more than 1 field.
+
+Display all students in the list.
+
+Ask the user for a last name. Display only the students with that last name.
+
+Ask the user for a student number. Display that student's information.
+
+Ask the user for a year level. Display only students with that year level.
+
+Ask the user for a course. Display only students with that course.
+
+Ask the user for a sex. Display only students with that sex.
+
+Display only passing students' information.
+
+Display only failing students' information.
+
+Display all students' information sorted by last name.
+
+Display all students' information sorted by student number.
+
+Exit.
+
+All text inputs should not have any spaces and will have at most 15 characters.
 
 ---
 ## Exercise 10 `zodiac.c`
@@ -227,7 +288,10 @@ Scorpio: Life seems to bring order into the world around you and you don’t rea
 ```
 
 ---
-## Exercise 11
+## Exercise 11 `SIS2.c`
+Implement Exercise #9: Student Information System but this time use random-access file reading and writing instead of linked lists.
+
+Additionally, instead of asking for a hyphenated student number, use integers 1 - 300. Use this student number as a key for random-access.
 
 ---
 ## Exercise 12 `Fractions.cpp`
