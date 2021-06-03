@@ -261,6 +261,7 @@ The file `data.for` contains 60 lines. Every 12 lines represents a fortune for o
 - Scorpio
 - Sagittarius
 - Capricorn
+
 This means the 1st, 13th, 25th, ..., line contains a fortune for Aquarius. Pisces' fortunes are in the 2nd, 14th, 26th, ..., line and so on.
 
 Do not use the same fortune once given out, use the next fortune instead. For example, if you've already given out an Aquarius fortune the first time, use the 13th line instead.
