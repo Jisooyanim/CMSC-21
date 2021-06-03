@@ -208,6 +208,7 @@ Prompt the user with a menu:
 12. Sort students by last name
 13. Sort students by student number
 14. Exit
+
 ?
 
 For menu item:
