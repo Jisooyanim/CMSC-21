@@ -333,6 +333,37 @@ Create a Rectangle class as well that stores 2 Points, the top-left and the bott
  - square - returns true if the rectangle is actually a square
 
 When displaying the rectangle, use a '#'. Also, add an extra space (' ') between every character on the same line so that it looks right.
+---
+## Exercise 14 `Package.cpp`
+Write a base class, `Package`. This class represents a package, it should contain its weight in kilos and the cost per kilo to ship the package. It should also have a public member function, calculateCost(), that calculates the cost for the package to ship. This class' constructor should accept values to initialize its weight and cost per kilo.
 
+`Package's calculateCost()` should return a double by multiplying its weight by the cost per kilo.
+
+Create a derived class, `TwoDayPackage`, that inherits from Package. Add a data member that represents a flat-fee for the two-day delivery service. This class' constructor should accept a value to initialize this fee.
+
+Override `TwoDayPackage's calculateCost()` to add the flat-fee on top of the standard cost. NOTE: that the standard cost calculation could change, so don't assume the standard cost is just weight times cost per weight.
+
+Create another derived class, `OvernightPackage`, that inherits from Package. Add a data member that represents an additional fee per kilo for the overnight delivery service. This class' constructor should accept a value to initialize this fee.
+
+Override `OvernightPackage's calculateCost()` to add the fee per kilo to the standard cost.
+
+Accept 4 doubles to represent:
+
+- the weight of the package,
+- cost per kilo to ship,
+- flat fee for the 2 day package, and
+- additional fee per kilo for overnight
+
+Print out the cost for the standard package, two day package, and overnight package on 1 line.
+### Sample Input
+``` 
+5 80 150 80
+4.2 75 300 112.5
+```
+### Sample Output
+```
+400.00 550.00 800.00
+315.00 615.00 787.50
+```
 
 
